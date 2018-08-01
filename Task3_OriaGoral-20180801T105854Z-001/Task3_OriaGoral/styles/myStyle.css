@@ -1,0 +1,156 @@
+body 
+{
+    direction:rtl;
+}
+#container
+{
+    width: 960px;
+    margin:0 auto;
+    padding: 30px 30px 30px 30px;
+    background-image:url("../images/10.jpg");
+    background-position: center;
+    color:white;
+    height:650px;
+}
+
+h1
+{
+    font-size: 50px;
+    color:cyan;
+    text-align:center;
+    display:block;
+    margin:auto;
+}
+
+#breadCrumbs{
+        margin-right: 384px;
+    margin-top: 4px;
+}
+
+
+#breadCrumbs ul li
+{
+    display:inline-block;
+    font-size:25px;
+    color:coral;
+    background-color:antiquewhite;
+}
+#breadCrumbs ul li:after
+{
+    content:">";
+}
+#breadCrumbs ul li:last-child:after
+{
+    content:"";
+}
+
+#indexnav
+{
+    margin-top:20px;
+}
+
+
+.box
+{
+        margin-top: 200px;
+}
+
+.frontPage{
+    clear:both;    
+    margin-top:0px;
+    position: absolute; 
+}
+.frontPage ul {
+list-style: none;
+}
+.frontPage ul li 
+{
+display: block;
+width: 120px;
+}
+.frontPage ul li a 
+{
+display: block;
+background-color:steelblue;
+color: white;
+font-size:30px;
+text-decoration: none;
+text-align: center;
+width: 250px;
+height: 40px;
+Padding-top:6px;
+margin-top:2px; 
+}
+.frontPage ul li a:hover 
+{
+background-color:darkolivegreen;
+}
+.frontPage ul li a:active 
+{
+background-color:navy;
+}
+.frontPage .Active
+{
+background-color:navy;
+}
+
+
+#hobbies>ul
+{
+ list-style-type:none;
+}
+
+#employment ,#education ,#hobbies ,#contact
+{
+    font-size:50px;
+    color:chocolate;
+    font-weight:bold;
+   display:block;
+   /*width:450px;*/
+   /*height:110px;*/
+   background-color:blanchedalmond;
+   margin:30px 200px;
+   margin-top: 200px; 
+   padding:10px;
+   text-align:center;
+}
+
+ #email
+{
+    background-image:url(../images/7mail.jpg);
+    width:40px;
+    height:40px;
+    display:inline-block;
+    background-position:right;
+
+-webkit-transition: all 1ms ease;
+-moz-transition: all 1ms ease;
+-ms-transition: all 1ms ease;
+-o-transition: all 1ms ease;
+transition: all 1ms ease;
+}
+ #email:hover
+ {
+     background-position:left;
+ }
+
+
+  #facebook
+{
+    background-image:url(../images/2facebook.jpg);
+    width:40px;
+    height:40px;
+    display:inline-block;
+    background-position:right;
+
+    -webkit-transition: all 1ms ease;
+-moz-transition: all 1ms ease;
+-ms-transition: all 1ms ease;
+-o-transition: all 1ms ease;
+transition: all 1ms ease;
+}
+   #facebook:hover
+ {
+     background-position:left;
+ }
+
